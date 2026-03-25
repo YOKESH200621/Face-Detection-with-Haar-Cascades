@@ -1,6 +1,6 @@
 # Face Detection using Haar Cascades with OpenCV and Matplotlib
-## Name : KAILASH PRABHU S
-## Reg No : 212224240068
+## Name : YOKESH I
+## Reg No : 212224230313
 ## Aim
 
 To write a Python program using OpenCV to perform the following image manipulations:  
@@ -66,10 +66,10 @@ import os
 # PART 1: ROI SEGMENTATION
 # =========================
 
-image = cv2.imread('kp.jpeg')
+image = cv2.imread('1000077167.jpg')
 
 if image is None:
-    print("Error: kp.jpeg not found")
+    print("Error: 1000077167.jpg not found")
     exit()
 
 image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
@@ -97,7 +97,7 @@ plt.show()
 # PART 2: EDGE DETECTION
 # =========================
 
-image = cv2.imread('kp.jpeg')
+image = cv2.imread('1000077167.jpg')
 
 if image is None:
     print("Error: kp.jpeg not found")
@@ -148,7 +148,7 @@ else:
         19:'train',20:'tvmonitor'
     }
 
-    image = cv2.imread('kp.jpeg')
+    image = cv2.imread('1000077167.jpg')
 
     if image is None:
         print("Error: itac.jpeg not found")
@@ -174,37 +174,37 @@ else:
             cv2.putText(image, label, (startX, startY - 10),
                         cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 0, 0), 2)
 
-    plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
-    plt.title("Object Detection (MobileNet-SSD)")
-    plt.axis('off')
-    plt.show()
+plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
+plt.title("Object Detection (MobileNet-SSD)")
+plt.axis('off')
+plt.show()
 ```
 ## OUTPUT
 
 ### Original Image
-<img width="336" height="466" alt="image" src="https://github.com/user-attachments/assets/4456f356-1e06-4b0c-9d3b-267dd26db8ed" />
+<img width="322" height="409" alt="download" src="https://github.com/user-attachments/assets/60e92736-607a-4f03-a87e-ed0a5890d57e" />
 
 
 
 ### Segmented ROI
-<img width="352" height="456" alt="image" src="https://github.com/user-attachments/assets/eee93900-d2d1-4a90-bdb1-79ac2614ea8d" />
+<img width="322" height="409" alt="download" src="https://github.com/user-attachments/assets/905a5c0b-b2b3-47f6-ba60-3e4815c66f2d" />
 
 
 
 
 ### Canny Edge Detection
-<img width="337" height="448" alt="image" src="https://github.com/user-attachments/assets/abe3cc19-fd51-4025-ac51-95e81ffc4cbf" />
 
+<img width="322" height="409" alt="download" src="https://github.com/user-attachments/assets/4b097418-59e7-489f-85ca-e11f0d76cea4" />
 
 
 ### CONTOUR DETECTION
-<img width="335" height="453" alt="image" src="https://github.com/user-attachments/assets/bd8e6f07-5533-4c94-8db0-9f630668aa63" />
 
 
+<img width="322" height="409" alt="download" src="https://github.com/user-attachments/assets/fe76fd58-c83d-4b1c-af7d-1c0cfca3a933" />
 
 ### Object Detection with MobileNet-SSD
-<img width="337" height="453" alt="image" src="https://github.com/user-attachments/assets/59dcd787-3229-4e62-86e7-8b4d360fbc19" />
 
+<img width="322" height="409" alt="download" src="https://github.com/user-attachments/assets/ba620eae-4663-40d5-86a6-6685b1788f9f" />
 
 
 
