@@ -182,30 +182,33 @@ plt.show()
 ## OUTPUT
 
 ### Original Image
-<img width="322" height="409" alt="download" src="https://github.com/user-attachments/assets/8d3b57fa-d3ee-4642-bdf1-70401e77d02d" />
+<img width="358" height="433" alt="download" src="https://github.com/user-attachments/assets/f0738861-3255-47d4-9386-05ab85989080" />
 
 
 
 ### Segmented ROI
+<img width="322" height="409" alt="download" src="https://github.com/user-attachments/assets/fdb375ee-5ef0-4719-a256-44779d2b0b73" />
 
-<img width="322" height="409" alt="download" src="https://github.com/user-attachments/assets/83e63ab3-9d6d-4b7e-ab90-ddf991b6a8aa" />
 
 
+
+### Original Image
+<img width="322" height="409" alt="download" src="https://github.com/user-attachments/assets/21bf4ae2-a252-4eb3-80b4-91ace5f71ae2" />
 
 ### Canny Edge Detection
 
-<img width="322" height="409" alt="download" src="https://github.com/user-attachments/assets/4324a47c-5178-4b64-aa4b-df4f3fc6577d" />
+<img width="322" height="409" alt="download" src="https://github.com/user-attachments/assets/9193e209-e67d-4799-972a-a76928f7b609" />
 
 
-### CONTOUR DETECTION
+### Handwriting Detection
+
+<img width="322" height="409" alt="download" src="https://github.com/user-attachments/assets/c058e9da-2f06-473d-9ad5-6b91ebd633dc" />
 
 
-<img width="322" height="409" alt="download" src="https://github.com/user-attachments/assets/75414e18-e260-46fa-b027-4d69486928a3" />
 
 ### Object Detection with MobileNet-SSD
 
-<img width="322" height="409" alt="download" src="https://github.com/user-attachments/assets/165569a1-6f79-4edd-b064-650dba628c41" />
-
+<img width="331" height="409" alt="download" src="https://github.com/user-attachments/assets/d901df3e-ce70-42a6-95c3-23facad670d8" />
 
 
 ## RESULT
